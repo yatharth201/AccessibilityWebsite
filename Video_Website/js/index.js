@@ -2,55 +2,70 @@
     * LOVELY THINGS
     */
 
+function addItem(){
+    var ul = document.getElementById("list");
+    for (var i = 0; i < values.length; i++) {
+        var li = document.createElement("li");
+        li.setAttribute('id', 'bogus'); // Change this to set the id of the li item
+        var iframe = document.createElement('iframe');
+        iframe.setAttribute('width', 560);
+        iframe.setAttribute('height', 315);
+        iframe.setAttribute('src', values[i].link);
+        iframe.setAttribute('allow', "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
+        iframe.setAttribute('frameborder', 0);
+
+        var h3 = document.createElement("h2");
+        h3.setAttribute('class', 'name');
+        h3.setAttribute('text-align', 'left');  
+        h3.innerHTML = "Name: " + values[i].name;
+
+        var year = document.createElement("p");
+        year.setAttribute('class', 'year');
+        year.innerHTML = "Year: " + values[i].year;
+
+        var disab = document.createElement("p");
+        disab.setAttribute('class', 'disability');
+        disab.innerHTML = "Disability: " + values[i].disability;
+
+        var br = document.createElement("br");
+
+        li.appendChild(iframe);
+        li.appendChild(h3);
+        li.appendChild(year);
+        li.appendChild(disab);
+        li.appendChild(br);
+        ul.appendChild(li);
+    }
+}
+
 var options = {
-  valueNames: [ 'name', 'year', 'location', 'age', 'gender', 'dname', 'disability', 'theme', 'language' ],
-   item: '<li><h3 class="name"></h3><p class="year"></p></li>'
+  valueNames: [ 'name', 'year', 'location', 'age', 'gender', 'dname', 'disability', 'theme', 'language', 'link' ]
 };
 
-var videos = [
-    {
+var values = [
+     {
       "name": "Dorca Rose",
       "year": "2018",
       "location": "Memphis",
       "age": "",
       "gender": "boy",
-      "disability": [
-        {
-          "dname": "ASD"
-        },
-        {
-          "dname": "ADHD"
-        }
-      ],
+      "link": "https://www.youtube.com/embed/fP4jhDf4svo",
+      "disability": "ASD, ADHD",
       "theme": "school providing enough information, 1:1 therapy not just group, Classroom aides participating in IEPs",
       "language": "Spanish"
-    } 
+    },
+    {
+      "name": "Nancy Aguila",
+      "year": "2018",
+      "location": "Memphis",
+      "age": "",
+      "gender": "boy",
+      "link": "https://www.youtube.com/embed/J3UXp9jIr-U",
+      "disability": "ASD",
+      "theme": "Surveilance cameras in classrooms as a back-up for liability issues, inclusion with neurotypical children, increased funding in IDEA",
+      "language": "Spanish"
+    }
 ];
-var featureList = new List('lovely-things-list', options);
+addItem();
+var userList = new List('users', options);
 
-
-$('#filter-games').click(function() {
-  featureList.filter(function(item) {
-    if (item.values().category == "Game") {
-      return true;
-    } else {
-      return false;
-    }
-  });
-  return false;
-});
-
-$('#filter-beverages').click(function() {
-  featureList.filter(function(item) {
-    if (item.values().category == "Beverage") {
-      return true;
-    } else {
-      return false;
-    }
-  });
-  return false;
-});
-$('#filter-none').click(function() {
-  featureList.filter();
-  return false;
-});
