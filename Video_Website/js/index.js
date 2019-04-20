@@ -19,6 +19,9 @@ function addItem(){
         h3.setAttribute('text-align', 'left');  
         h3.innerHTML = "Name: " + values[i].name;
 
+        var box = document.createElement("div");
+        box.setAttribute('class', 'box');
+
         var year = document.createElement("p");
         year.setAttribute('class', 'year');
         year.innerHTML = "Year: " + values[i].year;
@@ -30,9 +33,10 @@ function addItem(){
         var br = document.createElement("br");
 
         li.appendChild(iframe);
-        li.appendChild(h3);
-        li.appendChild(year);
-        li.appendChild(disab);
+        box.appendChild(h3);
+        box.appendChild(year);
+        box.appendChild(disab);
+        li.appendChild(box);
         li.appendChild(br);
         ul.appendChild(li);
     }
