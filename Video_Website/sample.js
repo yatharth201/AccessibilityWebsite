@@ -1,13 +1,20 @@
-let datafile = require('/Users/SmarakPattnaik/Documents/Videos.json');
-console.log(datafile.data[0].name);
+    function getJSON(url) {
+        var resp ;
+        var xmlHttp ;
 
-// const parseJsonAsyncFunc = jsonString => {
-//   return new Promise(resolve => {
-//     setTimeout(() => {
-//       resolve(JSON.parse(jsonString));
-//     });
-//   });
-// }
+        resp  = '' ;
+        xmlHttp = new XMLHttpRequest();
 
-// let datafile = require('/Users/SmarakPattnaik/Documents/tags.json');
-// parseJsonAsyncFunc(data).then(jsonData => console.log(jsonData.name));
+        if(xmlHttp != null)
+        {
+            xmlHttp.open( "GET", url, false );
+            xmlHttp.send( null );
+            resp = xmlHttp.responseText;
+        }
+
+        return resp ;
+    }
+
+    var gjson ;
+    gjson = getJSON('https://api.myjson.com/bins/ea8sc');
+    console.log (gjson);
