@@ -1,4 +1,3 @@
-/* WARNING: This css extreamly unoranized, go away :) */
 body,
 div,
 dl,
@@ -97,15 +96,23 @@ body {
 background-repeat: no-repeat!important;
 background-position: top left!important;
   font: normal 14px/1.3 'helvetica neue', helvetica, arial;
-  color: #bbb;
   text-shadow: #262729 0 -1px 0;
   -webkit-font-smoothing: antialiased;
 }
+
+#navbarcenter {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  align-self: center;
+}
+
 #search {
   margin-top: 2%;
   margin-bottom: 20px;
   width: 200px;
 }
+
 #sort {
 margin-bottom: 100px;
 }
@@ -115,70 +122,112 @@ margin-bottom: 100px;
   color: #ffffff;
 }
 
+#top {
+  height: 50px;
+  background-color: #E84A27;
+  color: #ffffff
+}
+
 .box {
   background-color: rgba(0,0,0,0.5);
   width: 560px;
-  height: 100px;
+  height: 200px;
   margin-bottom: 20px;
 }
 
 body.clearfix {
   display: block;
 }
+
 header {
   float: left;
   margin-bottom: 20px;
   width: 100%;
 }
+
+#navbarcontainer {
+  width: 1280px;
+  background-color: #13294B;
+  color: #ffffff;
+}
+
 #container {
   width: 750px;
   margin: 0 auto 80px;
 }
+
 #container a {
   color: #eee;
 }
+
 #container a:hover {
   color: #fff;
 }
+
 .c1 {
   width: 750px;
   float: left;
 }
+
 .c2 {
   width: 355px;
   float: left;
 }
+
 .c3 {
   width: 235px;
   float: left;
 }
+
 .m10l {
   margin-left: 10px;
 }
+
 .m20l {
   margin-left: 20px;
 }
 
+#aboutmsg {
+  padding: 20px;
+  margin-left: 10%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 600px;
+  width: 1000px;
+  background-color: rgba(0,0,0,0.5);
+  text-align: center;
+  font-family: gotham;
+}
+
 p {
-  font-size: 12px;
+  font-size: 18px;
   color: #ffffff;
 }
+
+h1 {
+  color: #ffffff;
+}
+
 h2 {
   font-size: 18px;
   color: #ffffff;
 }
+
 h2.look {
   font-size: 24px;
   margin-bottom: 45px;
 }
+
 h2 strong {
   color: #fafafa;
 }
+
 h3 {
   font-size: 14px;
   color: #3a3a3a;
   margin-bottom: 8px;
 }
+
 input {
   font: normal 12px/1.3 'helvetica neue', helvetica, arial;
   font-size: 20px;
@@ -190,6 +239,7 @@ input {
   text-align: center;
   align-self: center;
 }
+
 input:focus {
   border: none;
   outline: none;
@@ -199,10 +249,12 @@ input:focus {
   border-bottom: solid 1px #e6e6e6;
   border-left: solid 1px #aaa;
 }
+
 #users {
   align-items: center;
   align-content: center; 
 }
+
 .btn {
   color: #ccc;
   margin-right: 5px;
@@ -215,24 +267,8 @@ input:focus {
   cursor: pointer;
   cursor: hand;
 }
+
 .btn:hover {
   background-color: rgba(255, 255, 255, 0.05);
   color: #fafafa;
-}
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 10px;
-}
-th {
-  background-color: rgba(0, 0, 0, 0.1);
-  border: solid 1px rgba(255, 255, 255, 0.1);
-  padding: 10px 10px;
-  text-align: left;
-  font-weight: bold;
-  color: #dddddd;
-}
-td {
-  padding: 10px 10px;
-  border: solid 1px rgba(255, 255, 255, 0.1);
 }

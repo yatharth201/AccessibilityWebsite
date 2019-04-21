@@ -6,7 +6,7 @@ function addItem(){
     var ul = document.getElementById("list");
     for (var i = 0; i < values.length; i++) {
         var li = document.createElement("li");
-        li.setAttribute('id', 'bogus'); // Change this to set the id of the li item
+        li.setAttribute('class', 'bogus'); // Change this to set the id of the li item
         var iframe = document.createElement('iframe');
         iframe.setAttribute('width', 560);
         iframe.setAttribute('height', 315);
@@ -14,7 +14,7 @@ function addItem(){
         iframe.setAttribute('allow', "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
         iframe.setAttribute('frameborder', 0);
 
-        var h3 = document.createElement("h2");
+        var h3 = document.createElement("h4");
         h3.setAttribute('class', 'name');
         h3.setAttribute('text-align', 'left');  
         h3.innerHTML = "Name: " + values[i].name;
@@ -26,6 +26,10 @@ function addItem(){
         year.setAttribute('class', 'year');
         year.innerHTML = "Year: " + values[i].year;
 
+        var location = document.createElement("p");
+        location.setAttribute('class', 'location');
+        location.innerHTML = "Location: " + values[i].location;
+
         var disab = document.createElement("p");
         disab.setAttribute('class', 'disability');
         disab.innerHTML = "Disability: " + values[i].disability;
@@ -35,6 +39,7 @@ function addItem(){
         li.appendChild(iframe);
         box.appendChild(h3);
         box.appendChild(year);
+        box.appendChild(location);
         box.appendChild(disab);
         li.appendChild(box);
         li.appendChild(br);
