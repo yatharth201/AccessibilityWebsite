@@ -91,7 +91,9 @@ html[xmlns] .clearfix {
 * * * * * * * * * * * * * * * * * * * * */
 body {
   background: #00000;
-  background-image: "background.jpg";
+  background-image: "background.jpeg";
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment:fixed!important;
 background-repeat: no-repeat!important;
 background-position: top left!important;
