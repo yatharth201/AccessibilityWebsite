@@ -1,7 +1,3 @@
-/*
-    * LOVELY THINGS
-    */
-
 function addItem(){
     var ul = document.getElementById("list");
     for (var i = 0; i < values.length; i++) {
@@ -14,47 +10,56 @@ function addItem(){
         iframe.setAttribute('allow', "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
         iframe.setAttribute('frameborder', 0);
 
+        var age = "Age: ";
+        var age_ = age.bold();
+        var gender = "Gender: ";
+        var gender_ = gender.bold();
+        var year = "Year: ";
+        var year_ = year.bold();
+        var location = "Location: ";
+        var location_ = location.bold();
+        var disab = "Disability: ";
+        var disab_ = disab.bold();
+        var theme = "Theme: ";
+        var theme_ = theme.bold();
+        var language = "Language: ";
+        var language_ = language.bold();
+
         var box = document.createElement("div");
         box.setAttribute('class', 'box');
 
-        var column1 = document.createElement("div");
-        column1.setAttribute('class', 'col');
-
-        var column2 = document.createElement("div");
-        column2.setAttribute('class', 'col');
-
         var age = document.createElement("p");
         age.setAttribute('class', 'age');
-        age.innerHTML = "Age: " + values[i].age;
+        age.innerHTML = age_ + values[i].age;
 
         var gender = document.createElement("p");
         gender.setAttribute('class', 'gender');
-        gender.innerHTML = "Gender: " + values[i].gender;
+        gender.innerHTML = gender_ + values[i].gender;
 
         var year = document.createElement("p");
         year.setAttribute('class', 'year');
-        year.innerHTML = "Year: " + values[i].year;
+        year.innerHTML = year_ + values[i].year;
 
         var location = document.createElement("p");
         location.setAttribute('class', 'location');
-        location.innerHTML = "Location: " + values[i].location;
+        location.innerHTML = location_ + values[i].location;
 
         var disab = document.createElement("p");
         disab.setAttribute('class', 'disability');
-        disab.innerHTML = "Disability: " + values[i].disability;
+        disab.innerHTML = disab_ + values[i].disability;
 
         var theme = document.createElement("p");
         theme.setAttribute('class', 'theme');
-        theme.innerHTML = "Theme: " + values[i].theme;
+        theme.innerHTML = theme_ + values[i].theme;
 
         var language = document.createElement("p");
         language.setAttribute('class', 'language');
-        language.innerHTML = "Language: " + values[i].language;
+        language.innerHTML = language_ + values[i].language;
 
         var br = document.createElement("br");
 
-        column1.appendChild(iframe);
-        li.appendChild(column1);
+
+        li.appendChild(iframe);
         box.appendChild(age);
         box.appendChild(gender);
         box.appendChild(year);
@@ -62,8 +67,7 @@ function addItem(){
         box.appendChild(disab);
         box.appendChild(theme);
         box.appendChild(language);
-        column2.appendChild(box);
-        li.appendChild(column2);
+        li.appendChild(box);
         li.appendChild(br);
         ul.appendChild(li);
     }
@@ -79,7 +83,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "link": "https://www.youtube.com/embed/fP4jhDf4svo",
       "disability": "ASD, ADHD",
       "theme": "school providing enough information, 1:1 therapy not just group, Classroom aides participating in IEPs",
@@ -90,7 +94,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "link": "https://www.youtube.com/embed/J3UXp9jIr-U",
       "disability": "ASD",
       "theme": "Surveilance cameras in classrooms as a back-up for liability issues, inclusion with neurotypical children, increased funding in IDEA",
@@ -121,7 +125,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "Adult Service",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Funding for programs for adult services; Parent training for law, rights and advocacy; After school program;",
       "language": "English"
@@ -131,7 +135,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "Adult Service",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Educational training on rights and responsibilities; Increase Part D funding (Parent resource centers);",
       "language": "English"
@@ -141,7 +145,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "Early Childhood",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Down Syndrome",
       "theme": "More funding for inclusion with LRE;",
       "language": "English"
@@ -151,7 +155,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ADHD",
       "theme": "Gap in transition service between EI and Kinder; Training for school personnel and parents, Resources for parents",
       "language": "English"
@@ -161,7 +165,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Inclusion in LRE; Seamless transition from EI",
       "language": "English"
@@ -171,7 +175,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ID",
       "theme": "Accountability for services, especially inclusion, Parents being able to assess the classroom (due process)",
       "language": "English"
@@ -181,7 +185,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Schools providing enough time for parents to review relevant paperwork",
       "language": "English"
@@ -191,7 +195,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Early Childhood",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "ASD",
       "theme": "Procedural safeguard and due process explained; Local agencies providing services for parents; accountability for districts,",
       "language": "English"
@@ -201,7 +205,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Dyslexia",
       "theme": "Early screening and intervention",
       "language": "English"
@@ -211,7 +215,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Not Disclosed",
       "theme": "Providing aide; 100% federal funding IDEA",
       "language": "English"
@@ -221,7 +225,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "HFASD, ADHD, Social Anxiety",
       "theme": "Full inclusion with proper support, educational placement based on disability, generalization of skills",
       "language": "English"
@@ -241,7 +245,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Down Syndrome",
       "theme": "Language in IDEA for inclusion, Funding and guidance for school districts",
       "language": "English"
@@ -251,7 +255,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Multiple",
       "theme": "Parent involvement language in IDEA, liaison support for parents, increase parent participation in IEP process, children who are nonverbal be provided with AAC device, extend age to 26",
       "language": "English"
@@ -261,7 +265,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD, ADHD",
       "theme": "ADHD be added as a disability area, better train teachers to work with students with ADHD",
       "language": "Spanish"
@@ -271,7 +275,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Transition",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "ASD",
       "theme": "Increase diversity of classes, help parents understand the law better, provide documentation so parents understand it and it isn't repetitive  ",
       "language": "Spanish"
@@ -281,7 +285,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Down Syndrome",
       "theme": "IEPs provided in home language, training for parents, more communication with parents, training for teachers",
       "language": "Spanish"
@@ -291,7 +295,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ID",
       "theme": "Increase age to 26",
       "language": "English"
@@ -301,7 +305,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "School Age",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Learning Disability",
       "theme": "Funding (at least 40%)",
       "language": "English"
@@ -311,7 +315,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Adult Service",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Asperger's",
       "theme": "Include educational partnerships between parents/teachers, communication, teacher training",
       "language": "English"
@@ -331,7 +335,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Increase age to 26",
       "language": "English"
@@ -341,7 +345,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Increase age to 26",
       "language": "English"
@@ -351,7 +355,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ADHD",
       "theme": "Teacher training in ADHD",
       "language": "English"
@@ -361,7 +365,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Cerebral Palsy",
       "theme": "Information in Spanish",
       "language": "Not Disclosed"
@@ -371,7 +375,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Down Syndrome",
       "theme": "More transparency with legal information, special education in the community, addressing demographical and cultural diversity",
       "language": "English"
@@ -381,7 +385,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Autism",
       "theme": "Fully fund IDEA",
       "language": "English"
@@ -391,7 +395,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Apraxia",
       "theme": "Facilitated IEP as a procedural safeguard",
       "language": "English"
@@ -401,7 +405,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "School Age",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Autism",
       "theme": "Special education laws are rarely followed",
       "language": "English"
@@ -411,7 +415,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Transition",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Dyslexia",
       "theme": "Understanding the law, providing information in other languages",
       "language": "English"
@@ -421,7 +425,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Autism",
       "theme": "Not Disclosed",
       "language": "English"
@@ -431,7 +435,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Autism",
       "theme": "Not Disclosed",
       "language": "English"
@@ -441,7 +445,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Early Childhood",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Down Syndrome",
       "theme": "Clear, strong language about inclusion, LRE, needs of individuals with disabilities; strengthen laws",
       "language": "English"
@@ -451,7 +455,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Not Disclosed",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Not Disclosed",
       "theme": "Low income families have access to supports and services",
       "language": "English"
@@ -461,7 +465,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD, ADHD, Anxiety, Asthma, Severe Allergies",
       "theme": "Define LRE per child",
       "language": "English"
@@ -471,7 +475,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "School Age",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Congenital Heart Disease, Seizure Disorder, Legal Blindness, TBI",
       "theme": "Not Disclosed",
       "language": "English"
@@ -481,7 +485,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Cardiac Disease, SLD",
       "theme": "Not Disclosed",
       "language": "English"
@@ -491,7 +495,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Allergies, OCD, ASD",
       "theme": "Transition planning, assistive technology, add \"peer reviewed \" to research-based practices",
       "language": "English"
@@ -501,7 +505,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Not Disclosed",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Not Disclosed",
       "theme": "Accommodations not being implemented, sibling, parent advisory councils",
       "language": "English"
@@ -511,7 +515,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Manual for parents to understand the system, possibilities, services, information for new families",
       "language": "English"
@@ -521,7 +525,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Atypical HFASD",
       "theme": "Emotional and social wellbeing in conjunction with academics",
       "language": "English"
@@ -541,7 +545,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "HFASD",
       "theme": "Provide access to information about special education",
       "language": "English"
@@ -551,7 +555,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Congenital Heart Disease, Hypotonia, Nonverbal ASD",
       "theme": "Collaboration between schools and parents, resources for parents related to self care and information centers",
       "language": "English"
@@ -561,7 +565,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ADHD, ASD",
       "theme": "Including students with disabilities in activities, providing better communication between parents and teachers to allow for more participation ",
       "language": "Spanish"
@@ -571,7 +575,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "Not Disclosed",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "ASD",
       "theme": "Provide more services and therapies, provide supports for Latino families",
       "language": "Spanish"
@@ -581,7 +585,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "Early Childhood",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "ASD",
       "theme": "Provide more education for teachers in autism",
       "language": "Spanish"
@@ -591,7 +595,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Provide more therapies to support speech and behavior, provide more information in Spanish",
       "language": "Spanish"
@@ -601,7 +605,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "School Age",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "ASD",
       "theme": "Lack of education about classmates with disabilities",
       "language": "Spanish"
@@ -611,7 +615,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Adult Service",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "MS",
       "theme": "Government is very concerned about the education of all children",
       "language": "English"
@@ -621,7 +625,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Need more diversity and equity in education, ensure that funding is provided by the government",
       "language": "English"
@@ -631,7 +635,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Provide more funding for athletic services for individuals with disabilities",
       "language": "English"
@@ -641,7 +645,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Not Disclosed",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "SLD",
       "theme": "Ensure that all children with disabilities are provided FAPE, including those who are gifted and SLD",
       "language": "English"
@@ -651,7 +655,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "SLD",
       "theme": "Not Disclosed",
       "language": "English"
@@ -661,7 +665,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "SLD",
       "theme": "Stronger language in IDEA, shorten 60 day evaluation period, change \"consider\" to \"using\" independent evaluations to inform decisions",
       "language": "English"
@@ -671,7 +675,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Depression, ASD, ADHD",
       "theme": "Fully fund IDEA, hire fully qualified people, serve students beyond academics",
       "language": "English"
@@ -681,7 +685,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ADHD",
       "theme": "Budget cuts in special education, learning centers for SLD and young adults, more funding and more activities for special education, IEP meetings run by federal government and state board",
       "language": "English"
@@ -691,7 +695,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Auditory Processing Disorder",
       "theme": "Providing services that are in the IEP, communication between the school and family, accountability",
       "language": "English"
@@ -701,7 +705,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Not Disclosed",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Language Disorder, ADHD, ASD, SLD",
       "theme": "Earlier and efficient testing",
       "language": "English"
@@ -711,7 +715,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Down Syndrome",
       "theme": "More funding, appropriate supports and resources, sensitivity training for staff and students",
       "language": "English"
@@ -721,7 +725,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Early Childhood",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Cerebral Palsy, ASD, ADHD",
       "theme": "Transition from early childhood and early intervention, clearly state what is necessary for students after the age of 3, outline protocol for 3-5",
       "language": "English"
@@ -731,7 +735,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Auditory Processing Disorder, ASD, ADD",
       "theme": "Provide more opportunities for diverse programming",
       "language": "English"
@@ -741,7 +745,7 @@ var values = [
       "year": "2018",
       "location": "Chicago",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Asperger's",
       "theme": "Provide funding for specialists closer to the district",
       "language": "English"
@@ -751,7 +755,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "Adult Service",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "TBI",
       "theme": "Transitional, college, vocational services",
       "language": "English"
@@ -761,7 +765,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Char Syndrome",
       "theme": "Weekly ABA therapy",
       "language": "English"
@@ -771,7 +775,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Developmental Delay",
       "theme": "More time for teachers to spend with students",
       "language": "English"
@@ -781,7 +785,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Increase funding for adequate staffing for a variety of programs",
       "language": "English"
@@ -791,7 +795,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "School Age",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "ASD",
       "theme": "Increase age to 26",
       "language": "English"
@@ -801,7 +805,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Developmental Delay",
       "theme": "Providing transition services starting in 5th grade",
       "language": "English"
@@ -811,7 +815,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Provide language, funding, practices for twice exceptional students",
       "language": "English"
@@ -821,7 +825,7 @@ var values = [
       "year": "2018",
       "location": "Memphis",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ID",
       "theme": "Provide functional life skills classes in every school",
       "language": "English"
@@ -831,7 +835,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "School Age",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Cognitive Impairment, ASD, ADHD",
       "theme": "Providing transition services at 11",
       "language": "English"
@@ -841,7 +845,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "ABA fully funded for all children",
       "language": "English"
@@ -851,7 +855,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Tourette's Syndrome, ADHD, OCD, Asthma",
       "theme": "IDEA mandate high achiving schools to provide support for students with 504 plans and IEPs, fully fund IDEA, provide transition services at 11 or 12, more training for general education",
       "language": "English"
@@ -861,7 +865,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Behavior Disorder, Learning Delay",
       "theme": "Fully funding IDEA, cap number of students with IEP in a classroom",
       "language": "English"
@@ -871,7 +875,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Budget cuts, closing facilities, more vocational services as adults",
       "language": "English"
@@ -891,7 +895,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Auditory Processing Disorder, ADHD, SLD",
       "theme": "Training for paraprofessionals, duty of care to the student instead of the school/district",
       "language": "English"
@@ -901,7 +905,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "Adult Service",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Down Syndrome",
       "theme": "Transition services for those exiting school services",
       "language": "English"
@@ -911,7 +915,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "Transition",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Down Syndrome",
       "theme": "Not Disclosed",
       "language": "Not Disclosed"
@@ -921,7 +925,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "School Age",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Cognitive Impairment, Emotional Disorder",
       "theme": "Limit class size, proper ratio of students with and without disabilities (30/70), give parents a stronger voice in LRE",
       "language": "English"
@@ -931,7 +935,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Seizure Disorder, ID, ASD",
       "theme": "Training for paraprofessionals, classroom teachers",
       "language": "English"
@@ -941,7 +945,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Budget cuts for special education schools, fully fund special education",
       "language": "English"
@@ -951,7 +955,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ID",
       "theme": "Implement goals/strategies aimed towards independence",
       "language": "English"
@@ -961,7 +965,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "Transition",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Dyslexia",
       "theme": "Dyslexia identified and defined in IDEA, provide early screening for Dyslexia",
       "language": "English"
@@ -971,7 +975,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Dyslexia",
       "theme": "Not Disclosed",
       "language": "English"
@@ -981,7 +985,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "School Age",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Dyslexia",
       "theme": "Include definition of Dyslexia, all children be screened, teachers provided with training in Dyslexia",
       "language": "English"
@@ -991,7 +995,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Dyslexia",
       "theme": "Not Disclosed",
       "language": "English"
@@ -1001,7 +1005,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "HFASD",
       "theme": "Training for general education teacher in inclusion, differentiating instruction, integrating children with disabilities",
       "language": "English"
@@ -1011,7 +1015,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "Adult Service",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ID",
       "theme": "Adult agencies at transition meetings, transition specialists in schools",
       "language": "English"
@@ -1021,7 +1025,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Speech Delay, SLD",
       "theme": "Advocate educated in special education to assist parents in due process",
       "language": "English"
@@ -1031,7 +1035,7 @@ var values = [
       "year": "2013",
       "location": "UIUC",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Down Syndrome",
       "theme": "Begin transition planning before 14, trained transition specialists, research-based transition assessment tools",
       "language": "English"
@@ -1041,7 +1045,7 @@ var values = [
       "year": "2013",
       "location": "UIUC",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "HFASD",
       "theme": "Transition services in middle and high school, transition specialists, assessments for transitions",
       "language": "English"
@@ -1051,7 +1055,7 @@ var values = [
       "year": "2013",
       "location": "UIUC",
       "age": "Adult Service",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ID",
       "theme": "BCBA in every school district, work with educators and parents, continuum of educational programming in school districts, transition specialists, extend adult services through 22 instead of 21",
       "language": "English"
@@ -1061,7 +1065,7 @@ var values = [
       "year": "2013",
       "location": "DuPage",
       "age": "Early Childhood",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Down Syndrome",
       "theme": "Progress updates provided frequently",
       "language": "English"
@@ -1071,7 +1075,7 @@ var values = [
       "year": "2013",
       "location": "DuPage",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Supports in the transition process, transition specialist",
       "language": "English"
@@ -1081,7 +1085,7 @@ var values = [
       "year": "2013",
       "location": "DuPage",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Cerebral Palsy",
       "theme": "Goals should extend passed educational goals",
       "language": "English"
@@ -1091,7 +1095,7 @@ var values = [
       "year": "2013",
       "location": "DuPage",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Cyclical Vomitting Syndrome, ASD, ADHD",
       "theme": "Private psychological evaluation provided by the school district, 40 hours of training for teachers working with individuals with ASD",
       "language": "English"
@@ -1101,7 +1105,7 @@ var values = [
       "year": "2013",
       "location": "DuPage",
       "age": "Transition",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "ASD, ID",
       "theme": "Smoother transition for students into adulthood, benchmarks should be met a year prior to exiting program",
       "language": "English"
@@ -1121,7 +1125,7 @@ var values = [
       "year": "2013",
       "location": "DuPage",
       "age": "Transition",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Down Syndrome, ASD",
       "theme": "Student/Staff ratios included in IDEA",
       "language": "English"
@@ -1131,7 +1135,7 @@ var values = [
       "year": "2013",
       "location": "DuPage",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Behavioral Difficulties",
       "theme": "IEP specialists, therapies, assistive technology can not be taken away based on observations alone; IDEA must require a comprehensive assessment",
       "language": "English"
@@ -1141,7 +1145,7 @@ var values = [
       "year": "2013",
       "location": "DuPage",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Down Syndrome",
       "theme": "Provide parental information about IDEA",
       "language": "English"
@@ -1171,7 +1175,7 @@ var values = [
       "year": "2013",
       "location": "ISU",
       "age": "Early Childhood",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "ASD",
       "theme": "Include ABA as a related service",
       "language": "English"
@@ -1181,7 +1185,7 @@ var values = [
       "year": "2013",
       "location": "Not Disclosed",
       "age": "Early Childhood",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Train teachers and paraprofessionals, ABA therapy",
       "language": "English"
@@ -1201,7 +1205,7 @@ var values = [
       "year": "2013",
       "location": "Not Disclosed",
       "age": "Transition",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "ID",
       "theme": "More training for teachers working with individuals with intellectual disability",
       "language": "Spanish"
@@ -1211,7 +1215,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "More time for therapies, ABA",
       "language": "Spanish"
@@ -1221,7 +1225,7 @@ var values = [
       "year": "2013",
       "location": "Chicago",
       "age": "Not Disclosed",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Severe Delays",
       "theme": "ABA, more training for teachers and paraprofessionals",
       "language": "Spanish"
@@ -1231,7 +1235,7 @@ var values = [
       "year": "2013",
       "location": "Not Disclosed",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Understand the intelligence individuals with ASD have",
       "language": "Spanish"
@@ -1241,7 +1245,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Fully funding IDEA",
       "language": "English"
@@ -1251,7 +1255,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Modified test books",
       "language": "English"
@@ -1261,7 +1265,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Not Disclosed",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Bipolar Disorder, ASD",
       "theme": "Parents should have access to records, services for individual students instead of disability areas, funding based on percent of population",
       "language": "English"
@@ -1271,7 +1275,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Not Disclosed",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Dyslexia",
       "theme": "Not Disclosed",
       "language": "English"
@@ -1291,7 +1295,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Transition",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Anxeity, OCD",
       "theme": "Update IDEA so it can be more flexible for children with disabilities, Faster communication between teachers and parents",
       "language": "English"
@@ -1301,7 +1305,7 @@ var values = [
       "year": "2018",
       "location": "New Hampshire",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Provide information to parents in their native language within 20 days",
       "language": "English"
@@ -1311,7 +1315,7 @@ var values = [
       "year": "2018",
       "location": "New Hampshire",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Fully funding IDEA",
       "language": "English"
@@ -1321,7 +1325,7 @@ var values = [
       "year": "2018",
       "location": "New Hampshire",
       "age": "Not Disclosed",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "ADHD",
       "theme": "Not Disclosed",
       "language": "English"
@@ -1331,7 +1335,7 @@ var values = [
       "year": "2018",
       "location": "New Hampshire",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Fully funding IDEA",
       "language": "English"
@@ -1351,7 +1355,7 @@ var values = [
       "year": "2018",
       "location": "New Hampshire",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Cognitive Impairment, Learning Disability",
       "theme": "Fully funding IDEA",
       "language": "English"
@@ -1361,7 +1365,7 @@ var values = [
       "year": "2018",
       "location": "New Hampshire",
       "age": "Not Disclosed",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "TBI",
       "theme": "Fully funding IDEA",
       "language": "English"
@@ -1371,7 +1375,7 @@ var values = [
       "year": "2018",
       "location": "New Hampshire",
       "age": "School Age",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "System to ensure child's needs are being met by experts in the field, regulations for seclusionary practices, parents should be able to seek outside professional to determine appropriate interventions",
       "language": "English"
@@ -1381,7 +1385,7 @@ var values = [
       "year": "2018",
       "location": "New Hampshire",
       "age": "Early Childhood",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Down Syndrome",
       "theme": "Require parents to sign each page of IEP, main the level of detail required for service providers and provision, clear statement requiring schools to provide the services in the IEP",
       "language": "English"
@@ -1391,7 +1395,7 @@ var values = [
       "year": "2018",
       "location": "New Hampshire",
       "age": "Not Disclosed",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "ASD",
       "theme": "Parents should be allowed to see meeting agendas and relevant testing information 7 days prior to meeting",
       "language": "English"
@@ -1401,7 +1405,7 @@ var values = [
       "year": "2018",
       "location": "New Hampshire",
       "age": "School Age",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "Down Syndrome",
       "theme": "Parents should have access to and understand the IEP process, create an IEP summary for parents",
       "language": "English"
@@ -1421,7 +1425,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Transition",
-      "gender": "boy",
+      "gender": "Boy",
       "disability": "Congenital Disorder of Glycosylation",
       "theme": "Access to extracurricular activities for individuals with disabilities in order to promote social and emotional wellbeing",
       "language": "English"
@@ -1431,7 +1435,7 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "School Age",
-      "gender": "girl",
+      "gender": "Girl",
       "disability": "SLD",
       "theme": "Training for parents about their rights, require a nonbiased advocate at every meeting",
       "language": "English"

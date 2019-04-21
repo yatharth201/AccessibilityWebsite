@@ -101,7 +101,7 @@ background-position: top left!important;
 }
 
 #navbarcenter {
-  padding-left: 43%;
+  padding-left: 37%;
   font-size: 1.2em;
 }
 
@@ -111,7 +111,7 @@ background-position: top left!important;
 
 #search {
   margin-top: 2%;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
   width: 200px;
 }
 
@@ -123,6 +123,11 @@ margin-bottom: 100px;
   margin-top: 150px;
   color: #ffffff;
 }
+
+#homeheading {
+  margin-top: 50px;
+}
+
 
 #top {
   height: 100px;
@@ -156,7 +161,7 @@ header {
   color: #ffffff;
 }
 
-#container_videos {
+.container_videos {
   width:750px;
   padding-left: 80px;
   display: flex;
@@ -198,15 +203,26 @@ header {
   margin-left: 20px;
 }
 
+
+#aboutmsgforhome {
+  padding: 20px;
+  margin-left: 10%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 1000px;
+  background-color: rgba(0,0,0,0.6);
+  text-align: left;
+  font-family: gotham;
+}
+
 #aboutmsg {
   padding: 20px;
   margin-left: 10%;
   margin-top: 30px;
   margin-bottom: 30px;
-  height: 600px;
   width: 1000px;
   background-color: rgba(0,0,0,0.6);
-  text-align: center;
+  text-align: left;
   font-family: gotham;
 }
 

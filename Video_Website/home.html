@@ -1,57 +1,55 @@
 <!DOCTYPE html>
-<html lang="en" >
-   <head>
-      <meta charset="UTF-8">
-      <title>Parent Testimonials for the IDEA Reauthorization</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
-   </head>
-   <body background="background.jpg">
-   		<div id="top">
-      		<center>
-      			<h1>Parent Testimonials for the IDEA Reauthorization</h1>
-         	</center> 
-   	</div>
-      <div id="navbarcontainer">
-         <div id="navbarcenter" class="navbar">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Parent Testimonials for the IDEA Reauthorization</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+</head>
+
+<body background="background.jpg">
+    <div id="top">
+        <center>
+            <h1>Parent Testimonials for the IDEA Reauthorization</h1>
+        </center>
+    </div>
+    <div id="navbarcontainer">
+        <div id="navbarcenter" class="navbar">
             <div class="navbar-inner">
-               <a id = "navbarspacing" class="brand" href="home.html"><font color="#ffffff">HOME</a></font>
-               <a class="brand" href="about.html"><font color="#ffffff">ABOUT</a></font>
+                <a id="navbarspacing" class="brand" href="home.html"><font color="#ffffff">HOME</a></font>
+                <a id="navbarspacing" class="brand" href="about.html"><font color="#ffffff">ABOUT</a></font>
+                <a class="brand" href="all_testimonials.html"><font color="#ffffff">ALL TESTIMONIALS</a></font>
             </div>
-         </div>
-      </div>
-      <div id="container">
-      <div id="users">
-         <div class="text-center">
-            <div id="heading">
-               <h1><b> Search For Videos </b></h1>
+        </div>
+    </div>
+    <div id="aboutmsgforhome">
+
+        <center>
+            <h1>Welcome</h1></center>
+        <p>
+            With funding from the Spencer Foundation, Drs. Rossetti (Boston University) and Burke (University of Illinois at Urbana-Champaign) conductedcivic engagement trainings with parents of individuals with disabilities in four states. Specifically, in collaboration with Parent Training and Information Centers, civic engagement trainings were conducted in: Illinois, Massachusetts, New Hampshire, and Tennessee. At the end of the civic engagement training, parents completed short (i.e., 3 minute) videotaped testimonials. The testimonials share their concerns and suggestions for changes in the Individuals with Disabilities Education Act (IDEA, the federal special education law).
+        </p>
+    </div>
+    <div id="container">
+        <div id="users">
+            <div class="text-center">
+                <div id="homeheading">
+                    <h1><b> Featured Videos </b></h1>
+                </div>
+                <br>
             </div>
             <center>
-            <input id ="search" class="search" placeholder="Search" />
+                <ul class="homelist" id="homelist">
+                </ul>
             </center>
-            <button id="sort" class="sort" data-sort="name">
-            Sort by Name
-            </button>
-            <br>
-         </div>
-</div>
-      </div>
+        </div>
+        <!-- end of #container -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/list.js/1.0.0/list.min.js'></script>
+        <script src="js/featured_list.js"></script>
+</body>
 
-
-      <div id = "container-fluid">
-      	<div class = "row">
-      		<ul class = "list" id = "list">
-      		</ul>
-      	</div>
-      </div>
-
-
-
-      <!-- end of #container -->
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/list.js/1.0.0/list.min.js'></script>
-      <script  src="js/index.js"></script>
-   </body>
 </html>
