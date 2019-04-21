@@ -101,8 +101,12 @@ background-position: top left!important;
 }
 
 #navbarcenter {
-  padding-left: 45%;
+  padding-left: 43%;
   font-size: 1.2em;
+}
+
+#navbarspacing {
+  padding-right: 30px;
 }
 
 #search {
@@ -150,6 +154,12 @@ header {
   width: 1280px;
   background-color: #13294B;
   color: #ffffff;
+}
+
+#container_videos {
+  width:750px;
+  padding-left: 80px;
+  display: flex;
 }
 
 #container {

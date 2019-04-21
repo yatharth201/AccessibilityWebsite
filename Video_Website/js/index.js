@@ -17,6 +17,12 @@ function addItem(){
         var box = document.createElement("div");
         box.setAttribute('class', 'box');
 
+        var column1 = document.createElement("div");
+        column1.setAttribute('class', 'col');
+
+        var column2 = document.createElement("div");
+        column2.setAttribute('class', 'col');
+
         var age = document.createElement("p");
         age.setAttribute('class', 'age');
         age.innerHTML = "Age: " + values[i].age;
@@ -47,7 +53,8 @@ function addItem(){
 
         var br = document.createElement("br");
 
-        li.appendChild(iframe);
+        column1.appendChild(iframe);
+        li.appendChild(column1);
         box.appendChild(age);
         box.appendChild(gender);
         box.appendChild(year);
@@ -55,7 +62,8 @@ function addItem(){
         box.appendChild(disab);
         box.appendChild(theme);
         box.appendChild(language);
-        li.appendChild(box);
+        column2.appendChild(box);
+        li.appendChild(column2);
         li.appendChild(br);
         ul.appendChild(li);
     }
