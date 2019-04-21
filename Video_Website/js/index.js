@@ -17,11 +17,6 @@ function addItem(){
         var box = document.createElement("div");
         box.setAttribute('class', 'box');
 
-        var name = document.createElement("p");
-        name.setAttribute('class', 'name');
-        name.setAttribute('text-align', 'left');  
-        name.innerHTML = "Name: " + values[i].name;
-
         var age = document.createElement("p");
         age.setAttribute('class', 'age');
         age.innerHTML = "Age: " + values[i].age;
@@ -53,7 +48,6 @@ function addItem(){
         var br = document.createElement("br");
 
         li.appendChild(iframe);
-        box.appendChild(name);
         box.appendChild(age);
         box.appendChild(gender);
         box.appendChild(year);

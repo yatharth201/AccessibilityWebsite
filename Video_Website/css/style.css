@@ -91,7 +91,7 @@ html[xmlns] .clearfix {
 * * * * * * * * * * * * * * * * * * * * */
 body {
   background: #00000;
-  background-image: "/Users/yatharthdhoot/Desktop/code/VideoWebsite/Video_Website/background.jpg";
+  background-image: "background.jpg";
   background-attachment:fixed!important;
 background-repeat: no-repeat!important;
 background-position: top left!important;
@@ -101,10 +101,8 @@ background-position: top left!important;
 }
 
 #navbarcenter {
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  align-self: center;
+  padding-left: 45%;
+  font-size: 1.2em;
 }
 
 #search {
@@ -123,9 +121,12 @@ margin-bottom: 100px;
 }
 
 #top {
-  height: 50px;
+  height: 100px;
+  width:1280px;
   background-color: #E84A27;
-  color: #ffffff
+  vertical-align: center;
+  color: #ffffff;
+  padding-top: 25px;
 }
 
 .box {
@@ -205,6 +206,7 @@ p {
 }
 
 h1 {
+  text-align: center;
   color: #ffffff;
 }
 
