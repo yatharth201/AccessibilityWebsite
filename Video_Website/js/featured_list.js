@@ -1,7 +1,7 @@
 function addItem(){
     var ul = document.getElementById("homelist");
     for (var i = 0; i < values.length; i++) {
-        var li = document.createElement("li");
+        var li = document.createElement("li"); // creates a list which will be later used for search functionality
         li.setAttribute('class', 'bogus'); // Change this to set the id of the li item
         var iframe = document.createElement('iframe');
         iframe.setAttribute('width', 560);
@@ -58,6 +58,8 @@ function addItem(){
 
         var br = document.createElement("br");
 
+        //Append to list in order to display it on the website
+        li.appendChild(iframe);
         li.appendChild(iframe);
         box.appendChild(age);
         box.appendChild(gender);
