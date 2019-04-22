@@ -1,7 +1,8 @@
 function addItem(){
     var ul = document.getElementById("list");
     for (var i = 0; i < values.length; i++) {
-        var li = document.createElement("li");
+
+        var li = document.createElement("li"); // creates a list which will be later used for search functionality
         li.setAttribute('class', 'bogus'); // Change this to set the id of the li item
         var iframe = document.createElement('iframe');
         iframe.setAttribute('width', 560);
@@ -59,6 +60,7 @@ function addItem(){
         var br = document.createElement("br");
 
 
+        //Append to list in order to display it on the website
         li.appendChild(iframe);
         box.appendChild(age);
         box.appendChild(gender);
@@ -73,10 +75,12 @@ function addItem(){
     }
 }
 
+//Lists the variables by which you can search
 var options = {
-  valueNames: [ 'name', 'year', 'location', 'age', 'gender', 'dname', 'disability', 'theme', 'language', 'link' ]
+  valueNames: ['name', 'year', 'location', 'age', 'gender', 'dname', 'disability', 'theme', 'language', 'link' ]
 };
 
+//The huge dataset
 var values = [
      {
       "name": "Dorca Rose",

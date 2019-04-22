@@ -103,7 +103,7 @@ background-position: top left!important;
 }
 
 #navbarcenter {
-  padding-left: 37%;
+  padding-left: 34%;
   font-size: 1.2em;
 }
 
@@ -180,6 +180,23 @@ header {
 
 #container a:hover {
   color: #fff;
+}
+
+a:link {
+  font-weight: none;
+  text-decoration: none !important;
+}
+
+a:hover,
+ .a:hover {
+  font-weight: bold;
+  text-decoration: none !important;
+   
+}
+
+a.active-page {
+  font-weight: bold;
+  text-decoration: none !important;
 }
 
 .c1 {

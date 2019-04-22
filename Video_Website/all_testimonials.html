@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- This is the beginning of the page, that starts with the title for the page -->
 <head>
     <meta charset="UTF-8">
     <title>Parent Testimonials for the IDEA Reauthorization</title>
@@ -11,26 +12,31 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 </head>
 
+<!-- Inserting the background image (different for each page) -->
 <body background="background.jpg">
+    <!-- The title of the page, serves as a link to the homepage as well -->
     <div id="top">
         <center>
             <h1><a href="home.html"><font color="#ffffff">Parent Testimonials for the IDEA Reauthorization</font></a></h1>
         </center>
     </div>
+    <!-- Navbar that allows user to navigate between pages, becomes bold upon hover -->
     <div id="navbarcontainer">
         <div id="navbarcenter" class="navbar">
             <div class="navbar-inner">
                 <a id="navbarspacing" class="brand" href="home.html"><font color="#ffffff">HOME</a></font>
                 <a id="navbarspacing" class="brand" href="about.html"><font color="#ffffff">ABOUT</a></font>
-                <a class="brand" href="all_testimonials.html"><font color="#ffffff">ALL TESTIMONIALS</a></font>
+                <a class="active-page" href="all_testimonials.html"><font color="#ffffff"> SEARCH ALL TESTIMONIALS</a></font>
             </div>
         </div>
     </div>
+    <!-- beginning of container -->
     <div id="container">
         <div id="users">
             <div class="text-center">
                 <div id="heading">
                     <h1><b> Search For Videos </b></h1>
+                    <!-- Search tags -->
                      <h5><center>Search By: Age group, Disability, Year, Location, Language, Theme</center></h5>
                 </div>
                 <center>
@@ -39,6 +45,7 @@
                 <br>
             </div>
             <center>
+                <!-- Search functionality from list.js using ListJS -->
                 <ul class="list" id="list">
                 </ul>
             </center>
