@@ -231,7 +231,7 @@ a.active-page {
   width: 1000px;
   background-color: rgba(0,0,0,0.6);
   text-align: left;
-  font-family: gotham;
+  font-family: helvetica;
 }
 
 #aboutmsg {
@@ -242,7 +242,7 @@ a.active-page {
   width: 1000px;
   background-color: rgba(0,0,0,0.6);
   text-align: left;
-  font-family: gotham;
+  font-family: helvetica;
 }
 
 p {
