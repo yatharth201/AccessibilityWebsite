@@ -1,5 +1,6 @@
 function addItem(){
-    var ul = document.getElementById("homelist");
+    var ul = document.getElementById("home_tags_list");
+    var videos = document.getElementById("home_videos_list");
     for (var i = 0; i < values.length; i++) {
         var li = document.createElement("li"); // creates a list which will be later used for search functionality
         li.setAttribute('class', 'bogus'); // Change this to set the id of the li item
@@ -27,6 +28,9 @@ function addItem(){
 
         var box = document.createElement("div");
         box.setAttribute('class', 'box');
+
+        var video_box = document.createElement("div");
+        video_box.setAttribute('class', 'video_box');
 
         var age = document.createElement("p");
         age.setAttribute('class', 'age');
@@ -59,17 +63,19 @@ function addItem(){
         var br = document.createElement("br");
 
         //Append to list in order to display it on the website
-        li.appendChild(iframe);
-        li.appendChild(iframe);
+        video_box.appendChild(iframe);
+        videos.appendChild(video_box);
+        // videos.appendChild(br);
         box.appendChild(age);
         box.appendChild(gender);
-        box.appendChild(year);
+        //Uncomment the below line of code, in order to display the year of the video.
+        //box.appendChild(year);
         box.appendChild(location);
         box.appendChild(disab);
         box.appendChild(theme);
         box.appendChild(language);
         li.appendChild(box);
-        li.appendChild(br);
+        // li.appendChild(br);
         ul.appendChild(li);
     }
 }

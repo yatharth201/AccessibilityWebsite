@@ -64,7 +64,8 @@ function addItem(){
         li.appendChild(iframe);
         box.appendChild(age);
         box.appendChild(gender);
-        box.appendChild(year);
+        //Uncomment the below line of code, in order to display the year of the video.
+        //box.appendChild(year);
         box.appendChild(location);
         box.appendChild(disab);
         box.appendChild(theme);
@@ -900,7 +901,7 @@ var values = [
       "location": "Chicago",
       "age": "School Age",
       "gender": "Boy",
-      "disability": "Auditory Processing Disorder, ADHD, SLD",
+      "disability": "Auditory Processing Disorder, ADHD, SLD, Executive Function Disorder, Speech Disorder",
       "theme": "Training for paraprofessionals, duty of care to the student instead of the school/district",
       "language": "English"
     },
