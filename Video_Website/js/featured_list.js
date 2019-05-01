@@ -94,7 +94,7 @@ var values = [
       "disability": "ASD",
       "theme": "Funding for programs for adult services; Parent training for law, rights and advocacy; After school program;",
       "language": "English",
-      "link": "https://www.youtube.com/embed/lxjLjLcE2do"
+      "link": "https://www.youtube.com/embed/3bZrRkGRZlk"
     },
     {
       "name": "Jannes Roth",
@@ -105,7 +105,7 @@ var values = [
       "disability": "ASD",
       "theme": "Educational training on rights and responsibilities; Increase Part D funding (Parent resource centers);",
       "language": "English",
-      "link": "https://www.youtube.com/embed/lxjLjLcE2do"
+      "link": "https://www.youtube.com/embed/gP3CWd_yfHw"
     },
     {
       "name": "Shontie Brown",
@@ -116,7 +116,7 @@ var values = [
       "disability": "Down Syndrome",
       "theme": "More funding for inclusion with LRE;",
       "language": "English",
-      "link": "https://www.youtube.com/embed/lxjLjLcE2do"
+      "link": "https://www.youtube.com/embed/w0gbyegY6Q4"
     },
     {
       "name": "Aceriane Leal",
@@ -127,7 +127,7 @@ var values = [
       "disability": "ADHD",
       "theme": "Gap in transition service between EI and Kinder; Training for school personnel and parents, Resources for parents",
       "language": "English",
-      "link": "https://www.youtube.com/embed/lxjLjLcE2do"
+      "link": "https://www.youtube.com/embed/PAHsC0lsxto"
     },
     {
       "name": "Amanda Bailey",
@@ -138,7 +138,7 @@ var values = [
       "disability": "ASD",
       "theme": "Inclusion in LRE; Seamless transition from EI",
       "language": "English",
-      "link": "https://www.youtube.com/embed/lxjLjLcE2do"
+      "link": "https://www.youtube.com/embed/4Eu0MRSVCTs"
     }
 ];
 addItem();

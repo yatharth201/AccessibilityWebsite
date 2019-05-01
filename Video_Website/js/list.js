@@ -35,7 +35,7 @@ function addItem(){
         var language_ = language.bold();
 
         var box = document.createElement("div");
-        box.setAttribute('class', 'box');
+        box.setAttribute('class', 'box_all_videos');
 
         var age = document.createElement("p");
         age.setAttribute('class', 'age');
@@ -97,10 +97,10 @@ var values = [
       "location": "Memphis",
       "age": "Not Disclosed",
       "gender": "Boy",
-      "link": "https://www.youtube.com/embed/fP4jhDf4svo",
       "disability": "ASD, ADHD",
       "theme": "school providing enough information, 1:1 therapy not just group, Classroom aides participating in IEPs",
-      "language": "Spanish"
+      "language": "Spanish",
+      "link": "https://www.youtube.com/embed/xB4bWeoEnMY"
     },
     {
       "name": "Nancy Aguila",
@@ -108,10 +108,10 @@ var values = [
       "location": "Memphis",
       "age": "Not Disclosed",
       "gender": "Boy",
-      "link": "https://www.youtube.com/embed/lxjLjLcE2do",
       "disability": "ASD",
       "theme": "Surveilance cameras in classrooms as a back-up for liability issues, inclusion with neurotypical children, increased funding in IDEA",
-      "language": "Spanish"
+      "language": "Spanish",
+      "link": "https://www.youtube.com/embed/YaXzGFIWXQM"
     },
     {
       "name": "Johnnie Hatten",
@@ -121,7 +121,8 @@ var values = [
       "gender": "Not Disclosed",
       "disability": "Not Disclosed",
       "theme": "Training and educating parents on disabilities laws",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/FdpqtZ9znKU"
     },
     {
       "name": "Barbara Duddy",
@@ -131,7 +132,8 @@ var values = [
       "gender": "Not Disclosed",
       "disability": "Not Disclosed",
       "theme": "District and state funding increase; Make procedural safeguard easier; Funding for parent training; School admin attending IEP; better translators for IEP meetings; BCBAs conducting FBA; Short-term objective into IEP;",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/nds7OoBGQdc"
     },
     {
       "name": "Cynthia Hunt",
@@ -141,7 +143,8 @@ var values = [
       "gender": "Boy",
       "disability": "ASD",
       "theme": "Funding for programs for adult services; Parent training for law, rights and advocacy; After school program;",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/3bZrRkGRZlk"
     },
     {
       "name": "Jannes Roth",
@@ -151,7 +154,8 @@ var values = [
       "gender": "Boy",
       "disability": "ASD",
       "theme": "Educational training on rights and responsibilities; Increase Part D funding (Parent resource centers);",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/gP3CWd_yfHw"
     },
     {
       "name": "Shontie Brown",
@@ -161,7 +165,8 @@ var values = [
       "gender": "Girl",
       "disability": "Down Syndrome",
       "theme": "More funding for inclusion with LRE;",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/w0gbyegY6Q4"
     },
     {
       "name": "Aceriane Leal",
@@ -171,7 +176,8 @@ var values = [
       "gender": "Boy",
       "disability": "ADHD",
       "theme": "Gap in transition service between EI and Kinder; Training for school personnel and parents, Resources for parents",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/PAHsC0lsxto"
     },
     {
       "name": "Amanda Bailey",
@@ -181,7 +187,8 @@ var values = [
       "gender": "Boy",
       "disability": "ASD",
       "theme": "Inclusion in LRE; Seamless transition from EI",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/4Eu0MRSVCTs"
     },
     {
       "name": "Alex Lauric",
@@ -191,7 +198,8 @@ var values = [
       "gender": "Boy",
       "disability": "ID",
       "theme": "Accountability for services, especially inclusion, Parents being able to assess the classroom (due process)",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/Lv_bnWzUAXQ"
     },
     {
       "name": "Angela Pomaro",
@@ -201,7 +209,8 @@ var values = [
       "gender": "Boy",
       "disability": "ASD",
       "theme": "Schools providing enough time for parents to review relevant paperwork",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/bxwx5daDyuU"
     },
     {
       "name": "Karen Claudio",
@@ -211,7 +220,8 @@ var values = [
       "gender": "Girl",
       "disability": "ASD",
       "theme": "Procedural safeguard and due process explained; Local agencies providing services for parents; accountability for districts,",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/amIlmaQn9JQ"
     },
     {
       "name": "Mercedes Soto",
@@ -221,17 +231,8 @@ var values = [
       "gender": "Boy",
       "disability": "Dyslexia",
       "theme": "Early screening and intervention",
-      "language": "English"
-    },
-    {
-      "name": "Michael Bernstein",
-      "year": "2018",
-      "location": "Massachusetts",
-      "age": "Early Childhood",
-      "gender": "Boy",
-      "disability": "Not Disclosed",
-      "theme": "Providing aide; 100% federal funding IDEA",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/mc-TPpFbNyQ"
     },
     {
       "name": "Salima Slimane",
@@ -241,7 +242,8 @@ var values = [
       "gender": "Boy",
       "disability": "HFASD, ADHD, Social Anxiety",
       "theme": "Full inclusion with proper support, educational placement based on disability, generalization of skills",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/WYenQjZHBEU"
     },
     {
       "name": "Stacy Scofield",
@@ -251,7 +253,8 @@ var values = [
       "gender": "Not Disclosed",
       "disability": "Not Disclosed",
       "theme": "Increased funding",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/RjFT2wTYAEQ"
     },
     {
       "name": "Terri Taylor",
@@ -261,7 +264,8 @@ var values = [
       "gender": "Boy",
       "disability": "Down Syndrome",
       "theme": "Language in IDEA for inclusion, Funding and guidance for school districts",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/gV4fu0IolKE"
     },
     {
       "name": "Leatrice Gates",
@@ -271,7 +275,8 @@ var values = [
       "gender": "Boy",
       "disability": "Multiple",
       "theme": "Parent involvement language in IDEA, liaison support for parents, increase parent participation in IEP process, children who are nonverbal be provided with AAC device, extend age to 26",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/KVbOF6gTG8o"
     },
     {
       "name": "Jazmin Perez",
@@ -281,7 +286,8 @@ var values = [
       "gender": "Boy",
       "disability": "ASD, ADHD",
       "theme": "ADHD be added as a disability area, better train teachers to work with students with ADHD",
-      "language": "Spanish"
+      "language": "Spanish",
+      "link": "https://www.youtube.com/embed/rP9I2L98-RA"
     },
     {
       "name": "Leticia Ramirez",
@@ -291,7 +297,8 @@ var values = [
       "gender": "Girl",
       "disability": "ASD",
       "theme": "Increase diversity of classes, help parents understand the law better, provide documentation so parents understand it and it isn't repetitive  ",
-      "language": "Spanish"
+      "language": "Spanish",
+      "link": "https://www.youtube.com/embed/OM5nwdT77p4"
     },
     {
       "name": "Basilia Peralta",
@@ -301,7 +308,8 @@ var values = [
       "gender": "Boy",
       "disability": "Down Syndrome",
       "theme": "IEPs provided in home language, training for parents, more communication with parents, training for teachers",
-      "language": "Spanish"
+      "language": "Spanish",
+      "link": "https://www.youtube.com/embed/Op7pB7oWQTo"
     },
     {
       "name": "Teresa Spruiell",
@@ -311,7 +319,8 @@ var values = [
       "gender": "Boy",
       "disability": "ID",
       "theme": "Increase age to 26",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/zl8xioreW6s"
     },
     {
       "name": "Ileen Lasko",
@@ -321,7 +330,8 @@ var values = [
       "gender": "Girl",
       "disability": "Learning Disability",
       "theme": "Funding (at least 40%)",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/fkGtX7aKIh0"
     },
     {
       "name": "Lilian Chen-Byerly",
@@ -331,7 +341,8 @@ var values = [
       "gender": "Boy",
       "disability": "Asperger's",
       "theme": "Include educational partnerships between parents/teachers, communication, teacher training",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/QtbOPGXR9_g"
     },
     {
       "name": "Sharon Cerda",
@@ -341,7 +352,8 @@ var values = [
       "gender": "Not Disclosed",
       "disability": "Deaf, ASD, Brown's Syndrome",
       "theme": "Gap in parent/teacher relationships, communication, teacher training, understanding parental rights",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/tz4kGfB5wGY"
     },
     {
       "name": "Silvia Rodriguez",
@@ -351,7 +363,8 @@ var values = [
       "gender": "Boy",
       "disability": "ASD",
       "theme": "Increase age to 26",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/ro9iudKeQ1s"
     },
     {
       "name": "Sonya Northern",
@@ -361,7 +374,8 @@ var values = [
       "gender": "Boy",
       "disability": "ASD",
       "theme": "Increase age to 26",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/bhmhpNjgjxU"
     },
     {
       "name": "Alma Ortega",
@@ -371,7 +385,8 @@ var values = [
       "gender": "Boy",
       "disability": "ADHD",
       "theme": "Teacher training in ADHD",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/67vaRbp1og4"
     },
     {
       "name": "Raquel Quezada",
@@ -381,7 +396,8 @@ var values = [
       "gender": "Boy",
       "disability": "Cerebral Palsy",
       "theme": "Information in Spanish",
-      "language": "Not Disclosed"
+      "language": "Not Disclosed",
+      "link": "https://www.youtube.com/embed/nm-kc0Gldgs"
     },
     {
       "name": "Navarda Rindgater",
@@ -391,7 +407,8 @@ var values = [
       "gender": "Boy",
       "disability": "Down Syndrome",
       "theme": "More transparency with legal information, special education in the community, addressing demographical and cultural diversity",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/F3ty68fF8zk"
     },
     {
       "name": "Erin Gannon",
@@ -401,7 +418,8 @@ var values = [
       "gender": "Boy",
       "disability": "Autism",
       "theme": "Fully fund IDEA",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/qC7yrLm5qz8"
     },
     {
       "name": "Melissa Kielbania",
@@ -411,7 +429,8 @@ var values = [
       "gender": "Boy",
       "disability": "Apraxia",
       "theme": "Facilitated IEP as a procedural safeguard",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/4EN4j4IA9wg"
     },
     {
       "name": "Carol Tessling",
@@ -421,7 +440,8 @@ var values = [
       "gender": "Girl",
       "disability": "Autism",
       "theme": "Special education laws are rarely followed",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/5vALkl5y7Qc"
     },
     {
       "name": "Arelis Gomes",
@@ -431,7 +451,8 @@ var values = [
       "gender": "Girl",
       "disability": "Dyslexia",
       "theme": "Understanding the law, providing information in other languages",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/ChwCQIlT99o"
     },
     {
       "name": "Arelis Gomes",
@@ -441,7 +462,8 @@ var values = [
       "gender": "Boy",
       "disability": "Autism",
       "theme": "Not Disclosed",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/ChwCQIlT99o"
     },
     {
       "name": "Arelis Gomes",
@@ -451,7 +473,8 @@ var values = [
       "gender": "Boy",
       "disability": "Autism",
       "theme": "Not Disclosed",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/ChwCQIlT99o"
     },
     {
       "name": "Shonnon Gallagher",
@@ -461,7 +484,8 @@ var values = [
       "gender": "Girl",
       "disability": "Down Syndrome",
       "theme": "Clear, strong language about inclusion, LRE, needs of individuals with disabilities; strengthen laws",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/Hqpcuag3PFU"
     },
     {
       "name": "Bllu Catalano",
@@ -471,7 +495,8 @@ var values = [
       "gender": "Girl",
       "disability": "Not Disclosed",
       "theme": "Low income families have access to supports and services",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/C755AWEZfX0"
     },
     {
       "name": "Cara Coller",
@@ -481,7 +506,8 @@ var values = [
       "gender": "Boy",
       "disability": "ASD, ADHD, Anxiety, Asthma, Severe Allergies",
       "theme": "Define LRE per child",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/RyKCmJ8C_LU"
     },
     {
       "name": "Cara Coller",
@@ -491,7 +517,8 @@ var values = [
       "gender": "Girl",
       "disability": "Congenital Heart Disease, Seizure Disorder, Legal Blindness, TBI",
       "theme": "Not Disclosed",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/RyKCmJ8C_LU"
     },
     {
       "name": "Cara Coller",
@@ -501,7 +528,8 @@ var values = [
       "gender": "Boy",
       "disability": "Cardiac Disease, SLD",
       "theme": "Not Disclosed",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/RyKCmJ8C_LU"
     },
     {
       "name": "Linda Cox",
@@ -511,7 +539,8 @@ var values = [
       "gender": "Boy",
       "disability": "Allergies, OCD, ASD",
       "theme": "Transition planning, assistive technology, add \"peer reviewed \" to research-based practices",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/d1uT_frJLOA"
     },
     {
       "name": "Laurie McCarron",
@@ -521,7 +550,8 @@ var values = [
       "gender": "Girl",
       "disability": "Not Disclosed",
       "theme": "Accommodations not being implemented, sibling, parent advisory councils",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/t4H77Pb0MFg"
     },
     {
       "name": "Jaya Pandey",
@@ -531,7 +561,8 @@ var values = [
       "gender": "Boy",
       "disability": "ASD",
       "theme": "Manual for parents to understand the system, possibilities, services, information for new families",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/dXu5r5Rhmpk"
     },
     {
       "name": "Ellen Shapiro Smith",
@@ -541,17 +572,8 @@ var values = [
       "gender": "Boy",
       "disability": "Atypical HFASD",
       "theme": "Emotional and social wellbeing in conjunction with academics",
-      "language": "English"
-    },
-    {
-      "name": "Maria Hernandez",
-      "year": "2018",
-      "location": "Massachusetts",
-      "age": "Not Disclosed",
-      "gender": "Not Disclosed",
-      "disability": "Down Syndrome",
-      "theme": "Bullying, provide resources, language barriers",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/Jviw_VgeRVI"
     },
     {
       "name": "Yongting Wang",
@@ -561,7 +583,8 @@ var values = [
       "gender": "Boy",
       "disability": "HFASD",
       "theme": "Provide access to information about special education",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/vL6WUGBeXQk" 
     },
     {
       "name": "Stephanie Cahill",
@@ -571,7 +594,8 @@ var values = [
       "gender": "Boy",
       "disability": "Congenital Heart Disease, Hypotonia, Nonverbal ASD",
       "theme": "Collaboration between schools and parents, resources for parents related to self care and information centers",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/LC-UuouvlMU"
     },
     {
       "name": "Claudia Espinoza",
@@ -581,7 +605,8 @@ var values = [
       "gender": "Boy",
       "disability": "ADHD, ASD",
       "theme": "Including students with disabilities in activities, providing better communication between parents and teachers to allow for more participation ",
-      "language": "Spanish"
+      "language": "Spanish",
+      "link": "https://www.youtube.com/embed/YH3FbG4GDYA"
     },
     {
       "name": "Mayra Navaro",
@@ -591,7 +616,8 @@ var values = [
       "gender": "Girl",
       "disability": "ASD",
       "theme": "Provide more services and therapies, provide supports for Latino families",
-      "language": "Spanish"
+      "language": "Spanish",
+      "link": "https://www.youtube.com/embed/3SjP7j0u5do"
     },
     {
       "name": "Ma Najero",
@@ -601,7 +627,8 @@ var values = [
       "gender": "Girl",
       "disability": "ASD",
       "theme": "Provide more education for teachers in autism",
-      "language": "Spanish"
+      "language": "Spanish",
+      "link": "https://www.youtube.com/embed/yOyS6-dSJGc"
     },
     {
       "name": "Patricia Rodriguez",
@@ -611,7 +638,8 @@ var values = [
       "gender": "Boy",
       "disability": "ASD",
       "theme": "Provide more therapies to support speech and behavior, provide more information in Spanish",
-      "language": "Spanish"
+      "language": "Spanish",
+      "link": "https://www.youtube.com/embed/AAmt0ZArOdk"
     },
     {
       "name": "Gladis Arevalo",
@@ -621,7 +649,8 @@ var values = [
       "gender": "Girl",
       "disability": "ASD",
       "theme": "Lack of education about classmates with disabilities",
-      "language": "Spanish"
+      "language": "Spanish",
+      "link": "https://www.youtube.com/embed/J9h9FtUVb24"
     },
     {
       "name": "Jeannie Terrell",
@@ -631,7 +660,8 @@ var values = [
       "gender": "Girl",
       "disability": "MS",
       "theme": "Government is very concerned about the education of all children",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/wJh45SphCTU"
     },
     {
       "name": "Talanda McMullen",
@@ -641,7 +671,8 @@ var values = [
       "gender": "Boy",
       "disability": "ASD",
       "theme": "Need more diversity and equity in education, ensure that funding is provided by the government",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/Rkzg0whJzsw"
     },
     {
       "name": "Sandra Hite",
@@ -651,7 +682,8 @@ var values = [
       "gender": "Boy",
       "disability": "ASD",
       "theme": "Provide more funding for athletic services for individuals with disabilities",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/RkhzS9ezC-w"
     },
     {
       "name": "Sarah Colella",
@@ -661,17 +693,8 @@ var values = [
       "gender": "Girl",
       "disability": "SLD",
       "theme": "Ensure that all children with disabilities are provided FAPE, including those who are gifted and SLD",
-      "language": "English"
-    },
-    {
-      "name": "Sarah Colella",
-      "year": "2018",
-      "location": "Chicago",
-      "age": "Not Disclosed",
-      "gender": "Boy",
-      "disability": "SLD",
-      "theme": "Not Disclosed",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/Z0KYhOR60nw"
     },
     {
       "name": "Shera Schwartz",
@@ -681,7 +704,8 @@ var values = [
       "gender": "Boy",
       "disability": "SLD",
       "theme": "Stronger language in IDEA, shorten 60 day evaluation period, change \"consider\" to \"using\" independent evaluations to inform decisions",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/xL9nQmTny6I"
     },
     {
       "name": "Charlotte McAneney",
@@ -691,7 +715,8 @@ var values = [
       "gender": "Boy",
       "disability": "Depression, ASD, ADHD",
       "theme": "Fully fund IDEA, hire fully qualified people, serve students beyond academics",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/HQhKGC7d9N0"
     },
     {
       "name": "Vanessa Robinson",
@@ -701,7 +726,8 @@ var values = [
       "gender": "Boy",
       "disability": "ADHD",
       "theme": "Budget cuts in special education, learning centers for SLD and young adults, more funding and more activities for special education, IEP meetings run by federal government and state board",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/Nl-8Ty0MVFw"
     },
     {
       "name": "Tinch Marshall",
@@ -711,7 +737,8 @@ var values = [
       "gender": "Boy",
       "disability": "Auditory Processing Disorder",
       "theme": "Providing services that are in the IEP, communication between the school and family, accountability",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/SCDNnZGf8DM"
     },
     {
       "name": "Whitney Scott",
@@ -721,7 +748,8 @@ var values = [
       "gender": "Girl",
       "disability": "Language Disorder, ADHD, ASD, SLD",
       "theme": "Earlier and efficient testing",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/jgykyYM4bFg"
     },
     {
       "name": "Kesha Grey",
@@ -731,17 +759,8 @@ var values = [
       "gender": "Boy",
       "disability": "Down Syndrome",
       "theme": "More funding, appropriate supports and resources, sensitivity training for staff and students",
-      "language": "English"
-    },
-    {
-      "name": "Mary Ottinot",
-      "year": "2018",
-      "location": "Chicago",
-      "age": "Early Childhood",
-      "gender": "Girl",
-      "disability": "Cerebral Palsy, ASD, ADHD",
-      "theme": "Transition from early childhood and early intervention, clearly state what is necessary for students after the age of 3, outline protocol for 3-5",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/U9nHoiaNXaI"
     },
     {
       "name": "Margarita Flores",
@@ -751,7 +770,8 @@ var values = [
       "gender": "Boy",
       "disability": "Auditory Processing Disorder, ASD, ADD",
       "theme": "Provide more opportunities for diverse programming",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/T0_outCZ-X0"
     },
     {
       "name": "Margarita Flores",
@@ -761,7 +781,8 @@ var values = [
       "gender": "Boy",
       "disability": "Asperger's",
       "theme": "Provide funding for specialists closer to the district",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/T0_outCZ-X0"
     },
     {
       "name": "Elaine",
@@ -771,7 +792,8 @@ var values = [
       "gender": "Boy",
       "disability": "TBI",
       "theme": "Transitional, college, vocational services",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/rxppLsg2sqE"
     },
     {
       "name": "Alana",
@@ -781,7 +803,8 @@ var values = [
       "gender": "Boy",
       "disability": "Char Syndrome",
       "theme": "Weekly ABA therapy",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/-k5S4opnIac"
     },
     {
       "name": "Pamela",
@@ -791,7 +814,8 @@ var values = [
       "gender": "Boy",
       "disability": "Developmental Delay",
       "theme": "More time for teachers to spend with students",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/aB6iNdnuPgg"
     },
     {
       "name": "Angela Watson",
@@ -801,7 +825,8 @@ var values = [
       "gender": "Boy",
       "disability": "ASD",
       "theme": "Increase funding for adequate staffing for a variety of programs",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/3mWQNyoUrco"
     },
     {
       "name": "Bernadette Grey",
@@ -811,7 +836,8 @@ var values = [
       "gender": "Girl",
       "disability": "ASD",
       "theme": "Increase age to 26",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/tfoz9G0MYr0"
     },
     {
       "name": "Coletta Davis",
@@ -821,7 +847,8 @@ var values = [
       "gender": "Boy",
       "disability": "Developmental Delay",
       "theme": "Providing transition services starting in 5th grade",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/7hPZGOloRjI"
     },
     {
       "name": "Stephanie Peterson",
@@ -831,7 +858,8 @@ var values = [
       "gender": "Boy",
       "disability": "ASD",
       "theme": "Provide language, funding, practices for twice exceptional students",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/NQRfTs8ScKI"
     },
     {
       "name": "Cassandra Grey",
@@ -841,527 +869,8 @@ var values = [
       "gender": "Boy",
       "disability": "ID",
       "theme": "Provide functional life skills classes in every school",
-      "language": "English"
-    },
-    {
-      "name": "Zoubida",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "School Age",
-      "gender": "Girl",
-      "disability": "Cognitive Impairment, ASD, ADHD",
-      "theme": "Providing transition services at 11",
-      "language": "English"
-    },
-    {
-      "name": "Sonia",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "Early Childhood",
-      "gender": "Boy",
-      "disability": "ASD",
-      "theme": "ABA fully funded for all children",
-      "language": "English"
-    },
-    {
-      "name": "Savonna",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "Not Disclosed",
-      "gender": "Boy",
-      "disability": "Tourette's Syndrome, ADHD, OCD, Asthma",
-      "theme": "IDEA mandate high achiving schools to provide support for students with 504 plans and IEPs, fully fund IDEA, provide transition services at 11 or 12, more training for general education",
-      "language": "English"
-    },
-    {
-      "name": "Sarah",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "Early Childhood",
-      "gender": "Boy",
-      "disability": "Behavior Disorder, Learning Delay",
-      "theme": "Fully funding IDEA, cap number of students with IEP in a classroom",
-      "language": "English"
-    },
-    {
-      "name": "Rose",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "Transition",
-      "gender": "Boy",
-      "disability": "ASD",
-      "theme": "Budget cuts, closing facilities, more vocational services as adults",
-      "language": "English"
-    },
-    {
-      "name": "Paula Willis",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "Not Disclosed",
-      "gender": "Not Disclosed",
-      "disability": "Not Disclosed",
-      "theme": "Transition starting at 10, implement at age 13",
-      "language": "English"
-    },
-    {
-      "name": "Nadine",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "School Age",
-      "gender": "Boy",
-      "disability": "Auditory Processing Disorder, ADHD, SLD, Executive Function Disorder, Speech Disorder",
-      "theme": "Training for paraprofessionals, duty of care to the student instead of the school/district",
-      "language": "English"
-    },
-    {
-      "name": "Pat",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "Adult Service",
-      "gender": "Girl",
-      "disability": "Down Syndrome",
-      "theme": "Transition services for those exiting school services",
-      "language": "English"
-    },
-    {
-      "name": "Pat",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "Transition",
-      "gender": "Girl",
-      "disability": "Down Syndrome",
-      "theme": "Not Disclosed",
-      "language": "Not Disclosed"
-    },
-    {
-      "name": "Mignon Fulton",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "School Age",
-      "gender": "Girl",
-      "disability": "Cognitive Impairment, Emotional Disorder",
-      "theme": "Limit class size, proper ratio of students with and without disabilities (30/70), give parents a stronger voice in LRE",
-      "language": "English"
-    },
-    {
-      "name": "Lynn Betts",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "Transition",
-      "gender": "Boy",
-      "disability": "Seizure Disorder, ID, ASD",
-      "theme": "Training for paraprofessionals, classroom teachers",
-      "language": "English"
-    },
-    {
-      "name": "Laurie",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "Early Childhood",
-      "gender": "Boy",
-      "disability": "ASD",
-      "theme": "Budget cuts for special education schools, fully fund special education",
-      "language": "English"
-    },
-    {
-      "name": "Julie",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "Transition",
-      "gender": "Boy",
-      "disability": "ID",
-      "theme": "Implement goals/strategies aimed towards independence",
-      "language": "English"
-    },
-    {
-      "name": "Joan",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "Transition",
-      "gender": "Girl",
-      "disability": "Dyslexia",
-      "theme": "Dyslexia identified and defined in IDEA, provide early screening for Dyslexia",
-      "language": "English"
-    },
-    {
-      "name": "Joan",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "School Age",
-      "gender": "Boy",
-      "disability": "Dyslexia",
-      "theme": "Not Disclosed",
-      "language": "English"
-    },
-    {
-      "name": "Jennifer",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "School Age",
-      "gender": "Girl",
-      "disability": "Dyslexia",
-      "theme": "Include definition of Dyslexia, all children be screened, teachers provided with training in Dyslexia",
-      "language": "English"
-    },
-    {
-      "name": "Jennifer",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "School Age",
-      "gender": "Boy",
-      "disability": "Dyslexia",
-      "theme": "Not Disclosed",
-      "language": "English"
-    },
-    {
-      "name": "Jeff Taylor",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "Transition",
-      "gender": "Boy",
-      "disability": "HFASD",
-      "theme": "Training for general education teacher in inclusion, differentiating instruction, integrating children with disabilities",
-      "language": "English"
-    },
-    {
-      "name": "Aubrey",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "Adult Service",
-      "gender": "Boy",
-      "disability": "ID",
-      "theme": "Adult agencies at transition meetings, transition specialists in schools",
-      "language": "English"
-    },
-    {
-      "name": "Angie",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "School Age",
-      "gender": "Boy",
-      "disability": "Speech Delay, SLD",
-      "theme": "Advocate educated in special education to assist parents in due process",
-      "language": "English"
-    },
-    {
-      "name": "Theresa",
-      "year": "2013",
-      "location": "UIUC",
-      "age": "Transition",
-      "gender": "Boy",
-      "disability": "Down Syndrome",
-      "theme": "Begin transition planning before 14, trained transition specialists, research-based transition assessment tools",
-      "language": "English"
-    },
-    {
-      "name": "Patty",
-      "year": "2013",
-      "location": "UIUC",
-      "age": "School Age",
-      "gender": "Boy",
-      "disability": "HFASD",
-      "theme": "Transition services in middle and high school, transition specialists, assessments for transitions",
-      "language": "English"
-    },
-    {
-      "name": "Linda",
-      "year": "2013",
-      "location": "UIUC",
-      "age": "Adult Service",
-      "gender": "Boy",
-      "disability": "ID",
-      "theme": "BCBA in every school district, work with educators and parents, continuum of educational programming in school districts, transition specialists, extend adult services through 22 instead of 21",
-      "language": "English"
-    },
-    {
-      "name": "Sasha",
-      "year": "2013",
-      "location": "DuPage",
-      "age": "Early Childhood",
-      "gender": "Girl",
-      "disability": "Down Syndrome",
-      "theme": "Progress updates provided frequently",
-      "language": "English"
-    },
-    {
-      "name": "Proceda",
-      "year": "2013",
-      "location": "DuPage",
-      "age": "Transition",
-      "gender": "Boy",
-      "disability": "ASD",
-      "theme": "Supports in the transition process, transition specialist",
-      "language": "English"
-    },
-    {
-      "name": "Mike",
-      "year": "2013",
-      "location": "DuPage",
-      "age": "Early Childhood",
-      "gender": "Boy",
-      "disability": "Cerebral Palsy",
-      "theme": "Goals should extend passed educational goals",
-      "language": "English"
-    },
-    {
-      "name": "Martin",
-      "year": "2013",
-      "location": "DuPage",
-      "age": "Early Childhood",
-      "gender": "Boy",
-      "disability": "Cyclical Vomitting Syndrome, ASD, ADHD",
-      "theme": "Private psychological evaluation provided by the school district, 40 hours of training for teachers working with individuals with ASD",
-      "language": "English"
-    },
-    {
-      "name": "Lupe",
-      "year": "2013",
-      "location": "DuPage",
-      "age": "Transition",
-      "gender": "Girl",
-      "disability": "ASD, ID",
-      "theme": "Smoother transition for students into adulthood, benchmarks should be met a year prior to exiting program",
-      "language": "English"
-    },
-    {
-      "name": "Cynthia",
-      "year": "2013",
-      "location": "DuPage",
-      "age": "Not Disclosed",
-      "gender": "Not Disclosed",
-      "disability": "Not Disclosed",
-      "theme": "SEAs are not correctly defining or assessing for SLD, strong language in terms of how disabilities are defined and assessed, consistency across districts and states",
-      "language": "English"
-    },
-    {
-      "name": "Cara",
-      "year": "2013",
-      "location": "DuPage",
-      "age": "Transition",
-      "gender": "Girl",
-      "disability": "Down Syndrome, ASD",
-      "theme": "Student/Staff ratios included in IDEA",
-      "language": "English"
-    },
-    {
-      "name": "Anna",
-      "year": "2013",
-      "location": "DuPage",
-      "age": "Early Childhood",
-      "gender": "Boy",
-      "disability": "Behavioral Difficulties",
-      "theme": "IEP specialists, therapies, assistive technology can not be taken away based on observations alone; IDEA must require a comprehensive assessment",
-      "language": "English"
-    },
-    {
-      "name": "Andrea",
-      "year": "2013",
-      "location": "DuPage",
-      "age": "Transition",
-      "gender": "Boy",
-      "disability": "Down Syndrome",
-      "theme": "Provide parental information about IDEA",
-      "language": "English"
-    },
-    {
-      "name": "Rickie Lee",
-      "year": "2013",
-      "location": "ISU",
-      "age": "Early Childhood",
-      "gender": "Not Disclosed",
-      "disability": "Not Disclosed",
-      "theme": "Fully funding IDEA",
-      "language": "English"
-    },
-    {
-      "name": "Kim",
-      "year": "2013",
-      "location": "ISU",
-      "age": "Not Disclosed",
-      "gender": "Not Disclosed",
-      "disability": "Not Disclosed",
-      "theme": "Start transition services at an earlier age",
-      "language": "English"
-    },
-    {
-      "name": "Erica",
-      "year": "2013",
-      "location": "ISU",
-      "age": "Early Childhood",
-      "gender": "Girl",
-      "disability": "ASD",
-      "theme": "Include ABA as a related service",
-      "language": "English"
-    },
-    {
-      "name": "Paula Moran",
-      "year": "2013",
-      "location": "Not Disclosed",
-      "age": "Early Childhood",
-      "gender": "Boy",
-      "disability": "ASD",
-      "theme": "Train teachers and paraprofessionals, ABA therapy",
-      "language": "English"
-    },
-    {
-      "name": "Michelle Phillips",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "Not Disclosed",
-      "gender": "Not Disclosed",
-      "disability": "Not Disclosed",
-      "theme": "Define what an interpreter looks like, strengthen laws about 45 day disciplinary removal, fully fund IDEA",
-      "language": "English"
-    },
-    {
-      "name": "Maria",
-      "year": "2013",
-      "location": "Not Disclosed",
-      "age": "Transition",
-      "gender": "Girl",
-      "disability": "ID",
-      "theme": "More training for teachers working with individuals with intellectual disability",
-      "language": "Spanish"
-    },
-    {
-      "name": "Lydia",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "School Age",
-      "gender": "Boy",
-      "disability": "ASD",
-      "theme": "More time for therapies, ABA",
-      "language": "Spanish"
-    },
-    {
-      "name": "Jose",
-      "year": "2013",
-      "location": "Chicago",
-      "age": "Not Disclosed",
-      "gender": "Girl",
-      "disability": "Severe Delays",
-      "theme": "ABA, more training for teachers and paraprofessionals",
-      "language": "Spanish"
-    },
-    {
-      "name": "Edith",
-      "year": "2013",
-      "location": "Not Disclosed",
-      "age": "School Age",
-      "gender": "Boy",
-      "disability": "ASD",
-      "theme": "Understand the intelligence individuals with ASD have",
-      "language": "Spanish"
-    },
-    {
-      "name": "Jenna Knight",
-      "year": "2018",
-      "location": "Massachusetts",
-      "age": "Transition",
-      "gender": "Boy",
-      "disability": "ASD",
-      "theme": "Fully funding IDEA",
-      "language": "English"
-    },
-    {
-      "name": "Hima Bindu Pyda",
-      "year": "2018",
-      "location": "Massachusetts",
-      "age": "Transition",
-      "gender": "Boy",
-      "disability": "ASD",
-      "theme": "Modified test books",
-      "language": "English"
-    },
-    {
-      "name": "Elle Rucker",
-      "year": "2018",
-      "location": "Massachusetts",
-      "age": "Not Disclosed",
-      "gender": "Girl",
-      "disability": "Bipolar Disorder, ASD",
-      "theme": "Parents should have access to records, services for individual students instead of disability areas, funding based on percent of population",
-      "language": "English"
-    },
-    {
-      "name": "Elle Rucker",
-      "year": "2018",
-      "location": "Massachusetts",
-      "age": "Not Disclosed",
-      "gender": "Girl",
-      "disability": "Dyslexia",
-      "theme": "Not Disclosed",
-      "language": "English"
-    },
-    {
-      "name": "Ellen Chambers",
-      "year": "2018",
-      "location": "Massachusetts",
-      "age": "Not Disclosed",
-      "gender": "Not Disclosed",
-      "disability": "Not Disclosed",
-      "theme": "Ensuring that schools that are out of compliance must rectify the problem faster, ensuring that IEPs address the students' needs before finding no manifestation",
-      "language": "English"
-    },
-    {
-      "name": "Carla Molina-Dean",
-      "year": "2018",
-      "location": "Massachusetts",
-      "age": "Transition",
-      "gender": "Girl",
-      "disability": "Anxeity, OCD",
-      "theme": "Update IDEA so it can be more flexible for children with disabilities, Faster communication between teachers and parents",
-      "language": "English"
-    },
-    {
-      "name": "Donna Nixon",
-      "year": "2018",
-      "location": "New Hampshire",
-      "age": "Not Disclosed",
-      "gender": "Boy",
-      "disability": "ASD",
-      "theme": "Provide information to parents in their native language within 20 days",
-      "language": "English"
-    },
-    {
-      "name": "Shawna Bowman",
-      "year": "2018",
-      "location": "New Hampshire",
-      "age": "School Age",
-      "gender": "Boy",
-      "disability": "ASD",
-      "theme": "Fully funding IDEA",
-      "language": "English"
-    },
-    {
-      "name": "Shawna Bowman",
-      "year": "2018",
-      "location": "New Hampshire",
-      "age": "Not Disclosed",
-      "gender": "Girl",
-      "disability": "ADHD",
-      "theme": "Not Disclosed",
-      "language": "English"
-    },
-    {
-      "name": "Jessica Lott",
-      "year": "2018",
-      "location": "New Hampshire",
-      "age": "Not Disclosed",
-      "gender": "Boy",
-      "disability": "ASD",
-      "theme": "Fully funding IDEA",
-      "language": "English"
-    },
-    {
-      "name": "Moira Ryan",
-      "year": "2018",
-      "location": "New Hampshire",
-      "age": "Not Disclosed",
-      "gender": "Not Disclosed",
-      "disability": "ASD",
-      "theme": "Fully funding IDEA",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/9tOu1hM93hM"
     },
     {
       "name": "Sandi Raeuchle",
@@ -1371,87 +880,8 @@ var values = [
       "gender": "Boy",
       "disability": "Cognitive Impairment, Learning Disability",
       "theme": "Fully funding IDEA",
-      "language": "English"
-    },
-    {
-      "name": "LeeAnn Bower",
-      "year": "2018",
-      "location": "New Hampshire",
-      "age": "Not Disclosed",
-      "gender": "Girl",
-      "disability": "TBI",
-      "theme": "Fully funding IDEA",
-      "language": "English"
-    },
-    {
-      "name": "Ann Seward",
-      "year": "2018",
-      "location": "New Hampshire",
-      "age": "School Age",
-      "gender": "Boy",
-      "disability": "ASD",
-      "theme": "System to ensure child's needs are being met by experts in the field, regulations for seclusionary practices, parents should be able to seek outside professional to determine appropriate interventions",
-      "language": "English"
-    },
-    {
-      "name": "Erin Pospychala",
-      "year": "2018",
-      "location": "New Hampshire",
-      "age": "Early Childhood",
-      "gender": "Girl",
-      "disability": "Down Syndrome",
-      "theme": "Require parents to sign each page of IEP, main the level of detail required for service providers and provision, clear statement requiring schools to provide the services in the IEP",
-      "language": "English"
-    },
-    {
-      "name": "Shannon Littlefield",
-      "year": "2018",
-      "location": "New Hampshire",
-      "age": "Not Disclosed",
-      "gender": "Boy",
-      "disability": "ASD",
-      "theme": "Parents should be allowed to see meeting agendas and relevant testing information 7 days prior to meeting",
-      "language": "English"
-    },
-    {
-      "name": "Emily James",
-      "year": "2018",
-      "location": "New Hampshire",
-      "age": "School Age",
-      "gender": "Girl",
-      "disability": "Down Syndrome",
-      "theme": "Parents should have access to and understand the IEP process, create an IEP summary for parents",
-      "language": "English"
-    },
-    {
-      "name": "Ellen Curran",
-      "year": "2018",
-      "location": "Massachusetts",
-      "age": "Not Disclosed",
-      "gender": "Not Disclosed",
-      "disability": "Emotional Disorder",
-      "theme": "Loopholes in the interpretation and implementation of the disciplinary regulations should be closed",
-      "language": "English"
-    },
-    {
-      "name": "Kathleen Amaral",
-      "year": "2018",
-      "location": "Massachusetts",
-      "age": "Transition",
-      "gender": "Boy",
-      "disability": "Congenital Disorder of Glycosylation",
-      "theme": "Access to extracurricular activities for individuals with disabilities in order to promote social and emotional wellbeing",
-      "language": "English"
-    },
-    {
-      "name": "Carlina Machado",
-      "year": "2018",
-      "location": "Massachusetts",
-      "age": "School Age",
-      "gender": "Girl",
-      "disability": "SLD",
-      "theme": "Training for parents about their rights, require a nonbiased advocate at every meeting",
-      "language": "English"
+      "language": "English",
+      "link": "https://www.youtube.com/embed/xsSp79JnfqQ"
     }
 ];
 addItem();
