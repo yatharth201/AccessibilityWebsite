@@ -3,7 +3,7 @@ function addItem(){
     var videos = document.getElementById("home_videos_list");
     for (var i = 0; i < values.length; i++) {
         var li = document.createElement("li"); // creates a list which will be later used for search functionality
-        li.setAttribute('class', 'bogus'); // Change this to set the id of the li item
+        li.setAttribute('class', 'bogus'); // Change this to set the Intellectual Disability of the li item
         var iframe = document.createElement('iframe');
         iframe.setAttribute('width', 560);
         iframe.setAttribute('height', 315);
@@ -88,10 +88,10 @@ var values = [
      {
       "name": "Cynthia Hunt",
       "year": "2018",
-      "location": "Memphis",
+      "location": "Tennessee",
       "age": "Adult Service",
-      "gender": "Boy",
-      "disability": "ASD",
+      "gender": "Male",
+      "disability": "Autism",
       "theme": "Funding for programs for adult services; Parent training for law, rights and advocacy; After school program;",
       "language": "English",
       "link": "https://www.youtube.com/embed/3bZrRkGRZlk"
@@ -99,10 +99,10 @@ var values = [
     {
       "name": "Jannes Roth",
       "year": "2018",
-      "location": "Memphis",
+      "location": "Tennessee",
       "age": "Adult Service",
-      "gender": "Boy",
-      "disability": "ASD",
+      "gender": "Male",
+      "disability": "Autism",
       "theme": "Educational training on rights and responsibilities; Increase Part D funding (Parent resource centers);",
       "language": "English",
       "link": "https://www.youtube.com/embed/gP3CWd_yfHw"
@@ -110,9 +110,9 @@ var values = [
     {
       "name": "Shontie Brown",
       "year": "2018",
-      "location": "Memphis",
+      "location": "Tennessee",
       "age": "Early Childhood",
-      "gender": "Girl",
+      "gender": "Female",
       "disability": "Down Syndrome",
       "theme": "More funding for inclusion with LRE;",
       "language": "English",
@@ -123,8 +123,8 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Transition",
-      "gender": "Boy",
-      "disability": "ADHD",
+      "gender": "Male",
+      "disability": "Attention Deficit Hyperactivity Disorder",
       "theme": "Gap in transition service between EI and Kinder; Training for school personnel and parents, Resources for parents",
       "language": "English",
       "link": "https://www.youtube.com/embed/PAHsC0lsxto"
@@ -134,8 +134,8 @@ var values = [
       "year": "2018",
       "location": "Massachusetts",
       "age": "Early Childhood",
-      "gender": "Boy",
-      "disability": "ASD",
+      "gender": "Male",
+      "disability": "Autism",
       "theme": "Inclusion in LRE; Seamless transition from EI",
       "language": "English",
       "link": "https://www.youtube.com/embed/4Eu0MRSVCTs"

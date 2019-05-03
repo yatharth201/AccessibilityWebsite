@@ -124,7 +124,7 @@ span.popup {
   &:hover:after {
     opacity: 1;
     top: 1.2em;
-    max-height: 200px;
+    max-height: 250px;
     padding: .4em;
   }
 }
